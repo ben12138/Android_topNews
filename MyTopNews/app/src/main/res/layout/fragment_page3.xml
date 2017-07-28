@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jit.mayy.mytopnews.fragment.Page3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/write"/>
+
+            <TextView
+                android:id="@+id/writeNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#55983a15"
+                android:textSize="30dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="5dp"
+                android:text="写一写"/>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/listView_baoliao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>
